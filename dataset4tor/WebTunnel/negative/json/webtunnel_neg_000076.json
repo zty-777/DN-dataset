@@ -1,0 +1,384 @@
+{
+  "flow_id": 15373643,
+  "transport_mode": "webtunnel",
+  "source_dataset": "CESNET-TLS22",
+  "source_csv": "D:\\cesnet-tls22\\flows-20211005.csv",
+  "source_row_index": 173203,
+  "source_app": "facebook-graph",
+  "source_category": "Other services and APIs",
+  "core_packet_count": 20,
+  "core_packet_directions": [
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    -1
+  ],
+  "packet_length": [
+    517,
+    1380,
+    1380,
+    478,
+    64,
+    46,
+    43,
+    35,
+    299,
+    99,
+    171,
+    80,
+    57,
+    57,
+    308,
+    783,
+    712,
+    1380,
+    31,
+    505
+  ],
+  "directed_packet_length": [
+    517,
+    -1380,
+    -1380,
+    -478,
+    64,
+    46,
+    43,
+    35,
+    299,
+    99,
+    -171,
+    -80,
+    -57,
+    -57,
+    -308,
+    783,
+    712,
+    1380,
+    31,
+    -505
+  ],
+  "cs_packet_length": [
+    517,
+    64,
+    46,
+    43,
+    35,
+    299,
+    99,
+    783,
+    712,
+    1380,
+    31
+  ],
+  "arrive_time_delta": [
+    2.0,
+    0.0,
+    0.0,
+    23.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    16.0,
+    58.0,
+    60.0,
+    0.0,
+    2.0,
+    6.0,
+    442.0
+  ],
+  "features": {
+    "transport_mode": "webtunnel",
+    "direction": {
+      "direction_sequence": [
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ]
+    },
+    "core_sequences": {
+      "packet_length": [
+        517,
+        1380,
+        1380,
+        478,
+        64,
+        46,
+        43,
+        35,
+        299,
+        99,
+        171,
+        80,
+        57,
+        57,
+        308,
+        783,
+        712,
+        1380,
+        31,
+        505
+      ],
+      "arrive_time_delta": [
+        2.0,
+        0.0,
+        0.0,
+        23.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        16.0,
+        58.0,
+        60.0,
+        0.0,
+        2.0,
+        6.0,
+        442.0
+      ]
+    },
+    "mode_features": {
+      "mode": "webtunnel",
+      "tls_first_n_limit": 20,
+      "tls_first_n_directed_packet_lengths": [
+        517,
+        -1380,
+        -1380,
+        -478,
+        64,
+        46,
+        43,
+        35,
+        299,
+        99,
+        -171,
+        -80,
+        -57,
+        -57,
+        -308,
+        783,
+        712,
+        1380,
+        31,
+        -505
+      ],
+      "tls_first_n_packet_count": 20,
+      "upgrade": {
+        "found": false,
+        "marker_index": -1,
+        "marker_position": -1,
+        "candidate_indices": [],
+        "candidate_positions": [],
+        "all_candidate_indices_before_marker": [],
+        "upgrade_point_indices": [],
+        "upgrade_point_positions": [],
+        "upgrade_point_count": 0,
+        "candidate_length_range": [
+          75,
+          100
+        ],
+        "marker_length": 539
+      },
+      "burst": {
+        "count": 7,
+        "cs_burst_count": 3,
+        "sc_burst_count": 4,
+        "avg_packets_per_burst": 2.857142857142857,
+        "avg_length_per_burst": 1203.5714285714287,
+        "bursts": [
+          {
+            "direction": 1,
+            "packet_count": 1,
+            "total_length": 517,
+            "start_index": 0,
+            "end_index": 0
+          },
+          {
+            "direction": -1,
+            "packet_count": 3,
+            "total_length": 3238,
+            "start_index": 1,
+            "end_index": 3
+          },
+          {
+            "direction": 1,
+            "packet_count": 6,
+            "total_length": 586,
+            "start_index": 4,
+            "end_index": 9
+          },
+          {
+            "direction": -1,
+            "packet_count": 4,
+            "total_length": 365,
+            "start_index": 10,
+            "end_index": 13
+          },
+          {
+            "direction": -1,
+            "packet_count": 1,
+            "total_length": 308,
+            "start_index": 14,
+            "end_index": 14
+          },
+          {
+            "direction": 1,
+            "packet_count": 4,
+            "total_length": 2906,
+            "start_index": 15,
+            "end_index": 18
+          },
+          {
+            "direction": -1,
+            "packet_count": 1,
+            "total_length": 505,
+            "start_index": 19,
+            "end_index": 19
+          }
+        ]
+      }
+    },
+    "webtunnel": {
+      "mode": "webtunnel",
+      "tls_first_n_limit": 20,
+      "tls_first_n_directed_packet_lengths": [
+        517,
+        -1380,
+        -1380,
+        -478,
+        64,
+        46,
+        43,
+        35,
+        299,
+        99,
+        -171,
+        -80,
+        -57,
+        -57,
+        -308,
+        783,
+        712,
+        1380,
+        31,
+        -505
+      ],
+      "tls_first_n_packet_count": 20,
+      "upgrade": {
+        "found": false,
+        "marker_index": -1,
+        "marker_position": -1,
+        "candidate_indices": [],
+        "candidate_positions": [],
+        "all_candidate_indices_before_marker": [],
+        "upgrade_point_indices": [],
+        "upgrade_point_positions": [],
+        "upgrade_point_count": 0,
+        "candidate_length_range": [
+          75,
+          100
+        ],
+        "marker_length": 539
+      },
+      "burst": {
+        "count": 7,
+        "cs_burst_count": 3,
+        "sc_burst_count": 4,
+        "avg_packets_per_burst": 2.857142857142857,
+        "avg_length_per_burst": 1203.5714285714287,
+        "bursts": [
+          {
+            "direction": 1,
+            "packet_count": 1,
+            "total_length": 517,
+            "start_index": 0,
+            "end_index": 0
+          },
+          {
+            "direction": -1,
+            "packet_count": 3,
+            "total_length": 3238,
+            "start_index": 1,
+            "end_index": 3
+          },
+          {
+            "direction": 1,
+            "packet_count": 6,
+            "total_length": 586,
+            "start_index": 4,
+            "end_index": 9
+          },
+          {
+            "direction": -1,
+            "packet_count": 4,
+            "total_length": 365,
+            "start_index": 10,
+            "end_index": 13
+          },
+          {
+            "direction": -1,
+            "packet_count": 1,
+            "total_length": 308,
+            "start_index": 14,
+            "end_index": 14
+          },
+          {
+            "direction": 1,
+            "packet_count": 4,
+            "total_length": 2906,
+            "start_index": 15,
+            "end_index": 18
+          },
+          {
+            "direction": -1,
+            "packet_count": 1,
+            "total_length": 505,
+            "start_index": 19,
+            "end_index": 19
+          }
+        ]
+      }
+    }
+  }
+}

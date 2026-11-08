@@ -1,0 +1,311 @@
+{
+  "flow_id": 28406110,
+  "transport_mode": "webtunnel",
+  "source_dataset": "CESNET-TLS22",
+  "source_csv": "D:\\cesnet-tls22\\flows-20211006.csv",
+  "source_row_index": 328513,
+  "source_app": "office-365",
+  "source_category": "File sharing",
+  "core_packet_count": 14,
+  "core_packet_directions": [
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    -1
+  ],
+  "packet_length": [
+    210,
+    1460,
+    1460,
+    1460,
+    1460,
+    1306,
+    126,
+    274,
+    69,
+    87,
+    1328,
+    38,
+    873,
+    51
+  ],
+  "directed_packet_length": [
+    210,
+    -1460,
+    -1460,
+    -1460,
+    -1460,
+    -1306,
+    126,
+    -274,
+    -69,
+    87,
+    1328,
+    38,
+    873,
+    -51
+  ],
+  "cs_packet_length": [
+    210,
+    126,
+    87,
+    1328,
+    38,
+    873
+  ],
+  "arrive_time_delta": [
+    17.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    4.0,
+    14.0,
+    1.0,
+    7.0,
+    0.0,
+    0.0,
+    0.0,
+    20.0
+  ],
+  "features": {
+    "transport_mode": "webtunnel",
+    "direction": {
+      "direction_sequence": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ]
+    },
+    "core_sequences": {
+      "packet_length": [
+        210,
+        1460,
+        1460,
+        1460,
+        1460,
+        1306,
+        126,
+        274,
+        69,
+        87,
+        1328,
+        38,
+        873,
+        51
+      ],
+      "arrive_time_delta": [
+        17.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        14.0,
+        1.0,
+        7.0,
+        0.0,
+        0.0,
+        0.0,
+        20.0
+      ]
+    },
+    "mode_features": {
+      "mode": "webtunnel",
+      "tls_first_n_limit": 20,
+      "tls_first_n_directed_packet_lengths": [
+        210,
+        -1460,
+        -1460,
+        -1460,
+        -1460,
+        -1306,
+        126,
+        -274,
+        -69,
+        87,
+        1328,
+        38,
+        873,
+        -51
+      ],
+      "tls_first_n_packet_count": 14,
+      "upgrade": {
+        "found": false,
+        "marker_index": -1,
+        "marker_position": -1,
+        "candidate_indices": [],
+        "candidate_positions": [],
+        "all_candidate_indices_before_marker": [],
+        "upgrade_point_indices": [],
+        "upgrade_point_positions": [],
+        "upgrade_point_count": 0,
+        "candidate_length_range": [
+          75,
+          100
+        ],
+        "marker_length": 539
+      },
+      "burst": {
+        "count": 6,
+        "cs_burst_count": 3,
+        "sc_burst_count": 3,
+        "avg_packets_per_burst": 2.3333333333333335,
+        "avg_length_per_burst": 1700.3333333333333,
+        "bursts": [
+          {
+            "direction": 1,
+            "packet_count": 1,
+            "total_length": 210,
+            "start_index": 0,
+            "end_index": 0
+          },
+          {
+            "direction": -1,
+            "packet_count": 5,
+            "total_length": 7146,
+            "start_index": 1,
+            "end_index": 5
+          },
+          {
+            "direction": 1,
+            "packet_count": 1,
+            "total_length": 126,
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "direction": -1,
+            "packet_count": 2,
+            "total_length": 343,
+            "start_index": 7,
+            "end_index": 8
+          },
+          {
+            "direction": 1,
+            "packet_count": 4,
+            "total_length": 2326,
+            "start_index": 9,
+            "end_index": 12
+          },
+          {
+            "direction": -1,
+            "packet_count": 1,
+            "total_length": 51,
+            "start_index": 13,
+            "end_index": 13
+          }
+        ]
+      }
+    },
+    "webtunnel": {
+      "mode": "webtunnel",
+      "tls_first_n_limit": 20,
+      "tls_first_n_directed_packet_lengths": [
+        210,
+        -1460,
+        -1460,
+        -1460,
+        -1460,
+        -1306,
+        126,
+        -274,
+        -69,
+        87,
+        1328,
+        38,
+        873,
+        -51
+      ],
+      "tls_first_n_packet_count": 14,
+      "upgrade": {
+        "found": false,
+        "marker_index": -1,
+        "marker_position": -1,
+        "candidate_indices": [],
+        "candidate_positions": [],
+        "all_candidate_indices_before_marker": [],
+        "upgrade_point_indices": [],
+        "upgrade_point_positions": [],
+        "upgrade_point_count": 0,
+        "candidate_length_range": [
+          75,
+          100
+        ],
+        "marker_length": 539
+      },
+      "burst": {
+        "count": 6,
+        "cs_burst_count": 3,
+        "sc_burst_count": 3,
+        "avg_packets_per_burst": 2.3333333333333335,
+        "avg_length_per_burst": 1700.3333333333333,
+        "bursts": [
+          {
+            "direction": 1,
+            "packet_count": 1,
+            "total_length": 210,
+            "start_index": 0,
+            "end_index": 0
+          },
+          {
+            "direction": -1,
+            "packet_count": 5,
+            "total_length": 7146,
+            "start_index": 1,
+            "end_index": 5
+          },
+          {
+            "direction": 1,
+            "packet_count": 1,
+            "total_length": 126,
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "direction": -1,
+            "packet_count": 2,
+            "total_length": 343,
+            "start_index": 7,
+            "end_index": 8
+          },
+          {
+            "direction": 1,
+            "packet_count": 4,
+            "total_length": 2326,
+            "start_index": 9,
+            "end_index": 12
+          },
+          {
+            "direction": -1,
+            "packet_count": 1,
+            "total_length": 51,
+            "start_index": 13,
+            "end_index": 13
+          }
+        ]
+      }
+    }
+  }
+}

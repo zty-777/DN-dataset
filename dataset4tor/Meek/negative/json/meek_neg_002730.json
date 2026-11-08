@@ -1,0 +1,478 @@
+{
+  "flow_id": 28388896,
+  "transport_mode": "meek",
+  "source_dataset": "CESNET-TLS22",
+  "source_csv": "D:\\cesnet-tls22\\flows-20211006.csv",
+  "source_row_index": 311299,
+  "source_app": "skype",
+  "source_category": "Videoconferencing",
+  "core_packet_count": 13,
+  "core_packet_directions": [
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+  ],
+  "packet_length": [
+    517,
+    1460,
+    1460,
+    1460,
+    1325,
+    158,
+    99,
+    326,
+    69,
+    414,
+    38,
+    38,
+    338
+  ],
+  "directed_packet_length": [
+    517,
+    -1460,
+    -1460,
+    -1460,
+    -1325,
+    158,
+    99,
+    -326,
+    -69,
+    414,
+    -38,
+    38,
+    -338
+  ],
+  "arrive_time_delta": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    341.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    7.0,
+    160.0
+  ],
+  "features": {
+    "transport_mode": "meek",
+    "direction": {
+      "direction_sequence": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    "core_sequences": {
+      "packet_length": [
+        517,
+        1460,
+        1460,
+        1460,
+        1325,
+        158,
+        99,
+        326,
+        69,
+        414,
+        38,
+        38,
+        338
+      ],
+      "arrive_time_delta": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        341.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        7.0,
+        160.0
+      ]
+    },
+    "mode_features": {
+      "mode": "meek",
+      "tls_payload_packet_limit": 20,
+      "tls_payload_total_packet_count": 13,
+      "tls_payload_packet_count": 13,
+      "tls_payload_packet_length_sequence": [
+        517,
+        1460,
+        1460,
+        1460,
+        1325,
+        158,
+        99,
+        326,
+        69,
+        414,
+        38,
+        38,
+        338
+      ],
+      "tls_payload_direction_sequence": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "application_data_phase": {
+        "found_tls_application_data": true,
+        "start_index": 0,
+        "start_position": 1,
+        "packet_limit": 20,
+        "total_packet_count": 13,
+        "packet_count": 13,
+        "packet_length_stats": {
+          "mean": 592.4615384615385,
+          "variance": 329915.78698224854,
+          "min": 38.0,
+          "max": 1460.0,
+          "p10": 44.2,
+          "p25": 99.0,
+          "p50": 338.0,
+          "p75": 1325.0,
+          "p90": 1460.0
+        },
+        "byte_ratio": {
+          "upstream_bytes": 1226,
+          "downstream_bytes": 6476,
+          "total_bytes": 7702,
+          "upstream_byte_ratio": 0.15917943391326927,
+          "downstream_byte_ratio": 0.8408205660867307,
+          "upstream_downstream_ratio": 0.18931439159975294,
+          "downstream_upstream_ratio": 5.282218597063622
+        },
+        "burst": {
+          "count": 9,
+          "cs_burst_count": 5,
+          "sc_burst_count": 4,
+          "avg_packets_per_burst": 1.4444444444444444,
+          "avg_length_per_burst": 855.7777777777778,
+          "avg_packet_length_per_burst": 358.4166666666667,
+          "burst_threshold_ms": 1.0,
+          "bursts": [
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 517,
+              "start_index": 0,
+              "end_index": 0,
+              "avg_packet_length": 517.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 4,
+              "total_length": 5705,
+              "start_index": 1,
+              "end_index": 4,
+              "avg_packet_length": 1426.25
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 158,
+              "start_index": 5,
+              "end_index": 5,
+              "avg_packet_length": 158.0
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 99,
+              "start_index": 6,
+              "end_index": 6,
+              "avg_packet_length": 99.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 2,
+              "total_length": 395,
+              "start_index": 7,
+              "end_index": 8,
+              "avg_packet_length": 197.5
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 414,
+              "start_index": 9,
+              "end_index": 9,
+              "avg_packet_length": 414.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 1,
+              "total_length": 38,
+              "start_index": 10,
+              "end_index": 10,
+              "avg_packet_length": 38.0
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 38,
+              "start_index": 11,
+              "end_index": 11,
+              "avg_packet_length": 38.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 1,
+              "total_length": 338,
+              "start_index": 12,
+              "end_index": 12,
+              "avg_packet_length": 338.0
+            }
+          ]
+        },
+        "iat_distribution": {
+          "iat_ms": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            341.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            7.0,
+            160.0
+          ],
+          "stats": {
+            "mean": 42.666666666666664,
+            "variance": 10007.388888888887,
+            "min": 0.0,
+            "max": 341.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 1.0,
+            "p75": 2.5,
+            "p90": 144.70000000000005
+          },
+          "small_ratio": 0.8333333333333334,
+          "medium_ratio": 0.16666666666666666,
+          "large_ratio": 0.0,
+          "small_threshold_ms": 100,
+          "medium_threshold_ms": 500
+        }
+      }
+    },
+    "meek": {
+      "mode": "meek",
+      "tls_payload_packet_limit": 20,
+      "tls_payload_total_packet_count": 13,
+      "tls_payload_packet_count": 13,
+      "tls_payload_packet_length_sequence": [
+        517,
+        1460,
+        1460,
+        1460,
+        1325,
+        158,
+        99,
+        326,
+        69,
+        414,
+        38,
+        38,
+        338
+      ],
+      "tls_payload_direction_sequence": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "application_data_phase": {
+        "found_tls_application_data": true,
+        "start_index": 0,
+        "start_position": 1,
+        "packet_limit": 20,
+        "total_packet_count": 13,
+        "packet_count": 13,
+        "packet_length_stats": {
+          "mean": 592.4615384615385,
+          "variance": 329915.78698224854,
+          "min": 38.0,
+          "max": 1460.0,
+          "p10": 44.2,
+          "p25": 99.0,
+          "p50": 338.0,
+          "p75": 1325.0,
+          "p90": 1460.0
+        },
+        "byte_ratio": {
+          "upstream_bytes": 1226,
+          "downstream_bytes": 6476,
+          "total_bytes": 7702,
+          "upstream_byte_ratio": 0.15917943391326927,
+          "downstream_byte_ratio": 0.8408205660867307,
+          "upstream_downstream_ratio": 0.18931439159975294,
+          "downstream_upstream_ratio": 5.282218597063622
+        },
+        "burst": {
+          "count": 9,
+          "cs_burst_count": 5,
+          "sc_burst_count": 4,
+          "avg_packets_per_burst": 1.4444444444444444,
+          "avg_length_per_burst": 855.7777777777778,
+          "avg_packet_length_per_burst": 358.4166666666667,
+          "burst_threshold_ms": 1.0,
+          "bursts": [
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 517,
+              "start_index": 0,
+              "end_index": 0,
+              "avg_packet_length": 517.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 4,
+              "total_length": 5705,
+              "start_index": 1,
+              "end_index": 4,
+              "avg_packet_length": 1426.25
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 158,
+              "start_index": 5,
+              "end_index": 5,
+              "avg_packet_length": 158.0
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 99,
+              "start_index": 6,
+              "end_index": 6,
+              "avg_packet_length": 99.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 2,
+              "total_length": 395,
+              "start_index": 7,
+              "end_index": 8,
+              "avg_packet_length": 197.5
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 414,
+              "start_index": 9,
+              "end_index": 9,
+              "avg_packet_length": 414.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 1,
+              "total_length": 38,
+              "start_index": 10,
+              "end_index": 10,
+              "avg_packet_length": 38.0
+            },
+            {
+              "direction": 1,
+              "packet_count": 1,
+              "total_length": 38,
+              "start_index": 11,
+              "end_index": 11,
+              "avg_packet_length": 38.0
+            },
+            {
+              "direction": -1,
+              "packet_count": 1,
+              "total_length": 338,
+              "start_index": 12,
+              "end_index": 12,
+              "avg_packet_length": 338.0
+            }
+          ]
+        },
+        "iat_distribution": {
+          "iat_ms": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            341.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            7.0,
+            160.0
+          ],
+          "stats": {
+            "mean": 42.666666666666664,
+            "variance": 10007.388888888887,
+            "min": 0.0,
+            "max": 341.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p50": 1.0,
+            "p75": 2.5,
+            "p90": 144.70000000000005
+          },
+          "small_ratio": 0.8333333333333334,
+          "medium_ratio": 0.16666666666666666,
+          "large_ratio": 0.0,
+          "small_threshold_ms": 100,
+          "medium_threshold_ms": 500
+        }
+      }
+    }
+  }
+}

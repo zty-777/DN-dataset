@@ -1,0 +1,66 @@
+{
+  "flow_id": "43.68.82.71:443:150.189.110.231:52809",
+  "flow_key": "43.68.82.71:443:150.189.110.231:52809",
+  "label": 0,
+  "source_dataset": "MAWI",
+  "source_pcap": "D:\\mawi数据集\\202604080000.pcap",
+  "packet_source": "ipv4_tcp_header_declared_payload_length",
+  "orientation": "tcp_syn_without_ack",
+  "client_info": {
+    "ip": "150.189.110.231",
+    "port": 52809
+  },
+  "core_packet_count": 10,
+  "packet_length": [
+    1460,
+    76,
+    93,
+    412,
+    414,
+    412,
+    410,
+    409,
+    408,
+    411
+  ],
+  "core_packet_directions": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mode_features": {
+    "mode": "obfs4",
+    "payload_source": "mawi_header_no_raw",
+    "outbound_first_n_limit": 20,
+    "outbound_first_n_packet_count": 10,
+    "outbound_first_n_packet_lengths": [
+      1460,
+      76,
+      93,
+      412,
+      414,
+      412,
+      410,
+      409,
+      408,
+      411
+    ],
+    "outbound_first_n_payload_entropies": [],
+    "outbound_first_n_packet_length_variance": 129817.25,
+    "packet_length_first_diff_lag1_autocorrelation": 0.06535944716060321,
+    "packet_size_ratio": {
+      "small_ratio": 0.9,
+      "medium_ratio": 0.0,
+      "large_ratio": 0.1,
+      "small_packet_max": 500.0,
+      "medium_packet_max": 1000.0
+    }
+  }
+}
